@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+#output {
+    background: black;
+    color: white;
+    border: none;
+    width: 100vw;
+    margin: 0 auto;
+    display: block;
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+#send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80vw;
+    position: sticky;
+    bottom: 10px;
+}
+
+#send-input {
+    flex-grow: 1000;
+}
